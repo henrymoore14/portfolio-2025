@@ -117,11 +117,11 @@ export default function WelcomeChat({ onChatFinished }: WelcomeChatProps) {
 											<div
 																		className={
 																			`px-4 py-2 rounded-lg ${
-																					msg.sender === "user"
-																						? "bg-blue-100 text-gray-900 inline-block max-w-[80%]"
-																						: "bg-gray-100 text-gray-800 w-full"
-																				}`
-																			}
+																				msg.sender === "user"
+																					? "text-gray-900 inline-block max-w-[80%]"
+																					: "text-gray-800 w-full"
+																			}`
+																		}
 											>
 												{typedMessages[idx]}
 												{currentMsgIdx === idx && <span className="animate-pulse">|</span>}

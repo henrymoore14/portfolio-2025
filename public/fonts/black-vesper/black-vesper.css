@@ -1,0 +1,27 @@
+/*
+Font: 		Black Vesper
+Style: 		Regular
+URL: 		https://youworkforthem.com/font/T29992/black-vesper
+Foundry: 	Hipfonts
+Foundry: 	https://youworkforthem.com/designer/1938/hipfonts
+Copyright:	
+Version: 	17
+Created:	August 06, 2025
+License: 	https://www.youworkforthem.com/font-license 
+License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
+			WebFont license rules. All other parties are strictly restricted 
+			from using the WebFonts(s) listed without a purchased license. 
+			All details above must always remain unaltered and visible in your CSS.
+*/
+
+@font-face {
+	font-family: 'BlackVesper';
+	src: url('black-vesper.eot');
+	src: url('black-vesper.eot?#iefix') format('embedded-opentype'),
+             url('black-vesper.woff2') format('woff2'),
+	     url('black-vesper.woff') format('woff'),
+	     url('black-vesper.ttf') format('truetype'),
+	     url('black-vesper.svg#youworkforthem') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
