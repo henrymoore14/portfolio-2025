@@ -1,7 +1,12 @@
 import React from "react";
 
+interface Project {
+  title: string;
+  description: string;
+}
+
 // Dummy data for projects
-const projects = [
+const projects: Project[] = [
   { title: "Project Alpha", description: "AI-powered design system." },
   { title: "Project Beta", description: "Conversational UI toolkit." },
   { title: "Project Gamma", description: "Agent workflow automation." },
